@@ -1,0 +1,7 @@
+---
+- name: Mi primer playbook
+  hosts: "{{ hostname }}"
+  tasks:
+    - name: Mensaje
+      debug:
+        msg: "{{ ansible_fqdn }}"
