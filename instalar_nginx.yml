@@ -1,0 +1,7 @@
+---
+- name: Instala, inicia y configura reglas de firewall para Nginx
+  hosts: all
+  become: true
+  roles:
+    - nginx
+...
