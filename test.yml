@@ -4,4 +4,4 @@
   tasks:
     - name: Mensaje
       debug:
-        msg: "{{ ansible_fqdn }}"
+        msg: "{{ ansible_fqdn }} {{ variable1 }} {{ variable2 }}"
